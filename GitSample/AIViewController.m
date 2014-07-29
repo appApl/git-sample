@@ -23,7 +23,16 @@
     [UIView beginAnimations:@"animation" context:nil];
     [UIView setAnimationDuration:3.0];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor orangeColor];
+    [UIView commitAnimations];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [UIView beginAnimations:@"animation" context:nil];
+    [UIView setAnimationDuration:3.0];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    self.view.backgroundColor = [UIColor cyanColor];
     [UIView commitAnimations];
 }
 
