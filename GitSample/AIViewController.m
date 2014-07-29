@@ -27,6 +27,7 @@
     [UIView commitAnimations];
     
     NSLog(@"キャンセル");
+    NSLog(@"クローンプッシュ");
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
