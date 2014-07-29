@@ -25,6 +25,8 @@
     [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
     self.view.backgroundColor = [UIColor orangeColor];
     [UIView commitAnimations];
+    
+    NSLog(@"キャンセル");
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
